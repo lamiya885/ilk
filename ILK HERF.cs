@@ -17,13 +17,6 @@
                    Console.WriteLine(word[i+1]);
 
                 }
-                else if( word[i+3]==' ' && word[i+4]!=' ')
-                {
-                    if (word[i + 1] != word[i + 4])
-                    {
-                       Console.WriteLine(word[i + 4]);
-                    }
-                }
                 else  
                 {
                     i++;
